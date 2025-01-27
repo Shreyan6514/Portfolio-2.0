@@ -46,7 +46,7 @@ function draw() {
     var particle = particles[i];
     ctx.beginPath();
     ctx.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+    ctx.fillStyle = '#ff004f'; // change the color to #ff004f
     ctx.fill();
   }
 }
